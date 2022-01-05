@@ -61,3 +61,46 @@ padding-bottom: 20px;
 }
 
 /* SECOND SECTION STARTS */
+
+.three-box{
+    display:flex;
+    width:80%;
+    margin:0 auto 100px;
+    
+    /*overflow:hidden; */
+    
+}
+.three-box .box{
+
+    width:25%;
+    height:45vh;
+    margin:auto;
+    padding: 20px;
+    text-align: justify;
+
+    
+}
+.three-box .box img{
+    width:50%;
+    height: auto;
+}
+
+.three-box .first{
+    background-color: #b3f8b3;
+    border-radius:10px;
+}
+
+.three-box .second{
+   
+    background-color: #eea9cb;
+    border-radius:10px;
+}
+
+.three-box .third{
+    background-color:navajowhite;
+    border-radius:10px;
+}
+.three-box h3{
+    text-align:center;
+    margin-top: 0;
+}
