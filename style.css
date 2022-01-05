@@ -42,6 +42,12 @@ padding-bottom: 20px;
     background-image: linear-gradient(to right,#74adee,#0f529e);
 }
 
+.link-btn:hover{
+    display:inline-block;
+    width:250px;
+    background-image:linear-gradient(to right,#13eb86, #3eeb13) ;
+}
+
 /* TOP PART ENDS HERE */
 
 /* SECOND SECTION STARTS HERE */
@@ -51,6 +57,7 @@ padding-bottom: 20px;
 }
 .lonely-h{
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .lonely-h .span1{
@@ -77,6 +84,7 @@ padding-bottom: 20px;
     margin:auto;
     padding: 20px;
     text-align: justify;
+    box-shadow: 3px 3px 5px 5px grey;
 
     
 }
@@ -90,17 +98,34 @@ padding-bottom: 20px;
     border-radius:10px;
 }
 
+.three-box .first:hover{
+    background-color:#19b1ee;
+    box-shadow:1px 1px 1px 30px #19b1ee;
+}
+
 .three-box .second{
    
     background-color: #eea9cb;
     border-radius:10px;
 }
 
+.three-box .second:hover{
+    background-color:#036d6d ;
+    box-shadow: 1px 1px 1px 30px #036d6d;
+}
+
 .three-box .third{
     background-color:navajowhite;
     border-radius:10px;
+}
+
+.three-box .third:hover{
+    background-color: #39E528;
+    box-shadow: 1px 1px 1px 30px #39E528;
 }
 .three-box h3{
     text-align:center;
     margin-top: 0;
 }
+
+/* SECOND SECTION/ THREE BOX SECTION ENDS HERE */
