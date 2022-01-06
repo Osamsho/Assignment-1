@@ -6,7 +6,7 @@ body{
 .two-side{
     display:flex;
     padding-top:50px;
-    margin-bottom: 150px;
+    margin:0 20px 150px;
 }
 .half{
     flex-basis: 50%;
@@ -129,3 +129,27 @@ padding-bottom: 20px;
 }
 
 /* SECOND SECTION/ THREE BOX SECTION ENDS HERE */
+
+/* CODITATE SECTION STARTS */
+
+.coditate img{
+    border:5px solid #e96597;
+    border-radius:50%;
+}
+.coditate h2{
+    color:#e9911e;
+    text-shadow:1px #e9911e;
+}
+.coditate h1{
+    color:coral;
+    margin-left: 90px;
+    font-size:30px;
+}
+
+.coditate p{
+    color:#ee5118;
+    text-align: justify;
+}
+
+/* CODITATE SECTION ENDS */
+
