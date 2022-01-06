@@ -1,12 +1,13 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin:0;
+    padding:0;
     background-color: #cee9f6 ;
 }
 .two-side{
     display:flex;
     padding-top:50px;
-    margin:0 20px 150px;
+    margin:0 20px 120px;
 }
 .half{
     flex-basis: 50%;
@@ -30,7 +31,7 @@ body{
     font-weight:900;
 }
 .description{
-padding-bottom: 20px;
+padding-bottom: 30px;
 }
 .link-btn{
     background-color:#5A8BC3;
@@ -57,14 +58,14 @@ padding-bottom: 20px;
 }
 .lonely-h{
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .lonely-h .span1{
     color:#f07d3a;
 }
-.lonely-h .span2{
-    color:#13eb86;
+.span2{
+    color:#06fb89;
 }
 
 /* SECOND SECTION STARTS */
@@ -153,3 +154,92 @@ padding-bottom: 20px;
 
 /* CODITATE SECTION ENDS */
 
+/* GLOBAL SECTION STARTS HERE */
+
+.global img{
+    border-radius:50%;
+    border:2px solid rgb(51, 128, 0);
+ 
+}
+
+.contact h1{
+    text-align: center;
+    color:#0f529e;
+    font-size:30px;
+    font-weight:800;
+   
+}
+form{
+    background-color:#95fa30;
+    max-width:40%;
+    margin:0 auto;
+    padding:40px;
+    border-radius:10px;
+    
+}
+
+form .input input{
+width:100%;
+margin:15px auto;
+padding:10px 0;
+font-size:21px;
+background-color:transparent;
+border:none;
+border-bottom:2px solid #f02289;
+outline:none;
+color:#f50909;
+}
+
+form .checkbox{
+    font-size:20px;
+    color:#f02289;
+    font-weight:800;
+    
+}
+form .click{
+    margin:30px auto;
+    
+    
+}
+
+form button{
+    padding:10px 25px;
+    font-size:23px;
+    background-color:#ee14ee ;
+    border:none;
+    border-radius:5px;
+    color:white;
+    cursor:pointer;
+
+
+}
+form button:hover{
+    display:inline-block;
+    width:100%;
+    background-color:#d32424 ;
+}
+/* FORM ENDS HERE */
+
+footer{
+    background-color: black;
+    height:20vh;
+    
+}
+footer .first{
+color:white;
+
+}
+footer .second{
+    color:tomato;
+    
+}
+footer h1{
+    font-size:25px;
+    text-align:center;
+    padding-top:20px;
+    
+}
+footer p{
+    color:white;
+    text-align: center;
+}
